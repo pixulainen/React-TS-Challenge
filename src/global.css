@@ -1,5 +1,16 @@
+:root {
+  /* fontSize */
+  --font-size-xs: 0.35rem;
+  --font-size-sm: 0.55rem;
+  --font-size-md: 0.75;
+  --font-size-lg: 0.875rem;
+  --font-size-xl: 1rem;
+  --font-size-xxl: 1.275rem;
+  --font-size-xxxl: 1.375rem;
+}
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: none;
 }
 
 header {
@@ -29,3 +40,22 @@ main section {
   max-width: 1200px;
 }
 
+h1 {
+  font-size: var(--font-size-xxxl);
+}
+
+h2 {
+  font-size: var(--font-size-xxl);
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+}
+
+h4 {
+  font-size: var(--font-size-lg);
+}
+
+a {
+  text-decoration: none;
+}
